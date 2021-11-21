@@ -1,0 +1,17 @@
+/* Aplica a elemento del HTML*/
+p {
+    color:blueviolet;
+    font-size: 30px;
+}
+
+/*Aplica a clases*/
+.parrafo1 {
+    color: orange;
+    font-size: 50px;
+}
+
+/*Aplica a ID*/
+#texto1{
+    color: greenyellow;
+    font-size: 15px;
+}

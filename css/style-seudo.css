@@ -1,0 +1,30 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: aquamarine;
+}
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/* con : se define seudo clase y afecta un estado*/
+.main-nav__item a:hover{
+    color: blue;
+}
+.main-nav__item a:active{
+    color: red;
+}
+
+/* con :: se define seudo elemento y afecta una parte de un elemento*/
+.main-nav__item a::after{
+    content: " | ";
+}
+
